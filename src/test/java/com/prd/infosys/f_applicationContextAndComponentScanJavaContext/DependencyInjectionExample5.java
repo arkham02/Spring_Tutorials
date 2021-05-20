@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 /**
  * 
  * context can also be specified by javacode,
- * using @Configuration @ComponentScan
+ * using @Configuration @Component"Scan"
  * 
  * replacing the location attribute in @ContextConfiguration to classes attribute
  *

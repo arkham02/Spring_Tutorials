@@ -8,8 +8,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 /**
- * Even though we have autowired the HiService interface and not the
- * implementation , it will still work as Spring finds the implementation of those interfaces, but only if there is one impl
+ * Even though we have autowired the HiService interface and not the implementation ,
+ * it will still work as Spring finds the implementation of those interfaces,
+ * but only if there is ONE impl
  *
  */
 

@@ -7,8 +7,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-
-
 /**
  * 
  * Dependency Injection works even if the reference is private as Spring uses reflection
@@ -20,7 +18,7 @@ import org.junit.runner.RunWith;
 @ContextConfiguration(locations = { "/TestContext.xml" })
 public class DependencyInjectionExample6 {
 
-	
+
 	private GoodMorningService3 service;
 	
 	//Setter Injection

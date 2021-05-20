@@ -9,18 +9,18 @@ import org.junit.Test;
 
 /**
  * 
- * Dependency Injection - Eg. business class depends of data class which depends on
- * datasource class. 
+ * Dependency Injection -
+ * Eg. business class depends of data class which depends on datasource class.
  * 
  * We would want spring to take over the initialization and
  * the injection of them in the required classes. 
  * 
- * Spring IOC container - takes
- * care of creating the beans that are needed (creating instances), making it
- * available, destroying it
+ * Spring IOC container -
+ * takes care of creating the beans that are needed (creating instances),
+ * making it available, destroying it
  * 
  * 1. Spring -- > Create a GoodMorning Service == > @Component
- * 2. Spring -- > Needs to give DependencyInjectionExample the created GoodMorning service ==> @Autowired
+ * 2. Spring -- > Needs to give DependencyInjectionExample to the created GoodMorning service ==> @Autowired
  *
  */
 

@@ -35,9 +35,11 @@ public class DependencyInjectionExample2 {
 
 /**
  * 
- * Although we have provided @Component and @AutoWired annotations. How would Spring know to search for the component?
- * Who is creating Spring ? (by using SpringJUnit4ClassRunner - it instantiates the spring framework. 
- * 							But to instantiate , it needs ApplicationContext)
+ * Although we have provided @Component and @AutoWired annotations.
+ * How would Spring know to search for the component?
+ * Who is creating Spring ?
+ * (by using SpringJUnit4ClassRunner - it instantiates the spring framework.
+ * 	But to instantiate , it needs ApplicationContext)
  *
  */
 	@Component
